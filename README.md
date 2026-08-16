@@ -112,14 +112,23 @@ M3ECardPosition pos = calculateCardPosition(index, itemCount);
 
 ## Usage
 
-Simply import the package and use `M3ECardList`, `SliverM3ECardList`, `M3ECardColumn`, or `M3ECard`.
+> [!IMPORTANT]
+> **Flutter 3.47+ & `material_ui` Requirement (v1.0.0+)**:
+> Starting with `v1.0.0`, `m3e_card_list` is migrated to use the standalone `material_ui` package decoupled in **Flutter 3.47.0**.
+> - Requires Flutter SDK **`>=3.47.0`**.
+> - Ensure your app imports `package:material_ui/material_ui.dart` (or run `dart fix --apply --code=migrate_design_widgets`).
+> - If you are on Flutter `< 3.47.0`, please use `m3e_card_list: ^0.1.0`.
+
+Add `m3e_card_list` and `material_ui` to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  m3e_card_list: ^0.1.0
+  material_ui: ^1.0.0
+  m3e_card_list: ^1.0.0
 ```
 
 ```dart
+import 'package:material_ui/material_ui.dart';
 import 'package:m3e_card_list/m3e_card_list.dart';
 
 M3ECardList(
