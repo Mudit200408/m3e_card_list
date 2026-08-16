@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:m3e_card_list/m3e_card_list.dart';
 
 /// A Material 3 interactive card list for use in [CustomScrollView]s.
