@@ -38,6 +38,14 @@ BorderRadius calculateCardRadius({
 ///
 /// This is the building block for [M3ECardList] and [SliverM3ECardList]. It can
 /// be used directly in a [ListView.builder] to create custom lazy-loading lists.
+///
+/// **⚠️ Deprecated**: `m3e_card_list` is end-of-life. Migrate to
+/// [`m3e_segmented_list`](https://pub.dev/packages/m3e_segmented_list).
+@Deprecated(
+  'Use m3e_segmented_list instead. '
+  'This package is end-of-life and will no longer receive updates. '
+  'See: https://pub.dev/packages/m3e_segmented_list',
+)
 class M3ECard extends StatelessWidget {
   /// The index of the item (passed to the [onTap] callback).
   final int index;

@@ -10,6 +10,14 @@ import 'package:m3e_card_list/m3e_card_list.dart';
 ///
 /// Use the default constructor for small lists (using [Column]) or
 /// [M3ECardList.builder] for large or infinite lists (using [ListView.builder]).
+///
+/// **⚠️ Deprecated**: `m3e_card_list` is end-of-life. Migrate to
+/// [`m3e_segmented_list`](https://pub.dev/packages/m3e_segmented_list).
+@Deprecated(
+  'Use m3e_segmented_list instead. '
+  'This package is end-of-life and will no longer receive updates. '
+  'See: https://pub.dev/packages/m3e_segmented_list',
+)
 class M3ECardList extends StatelessWidget {
   /// The number of items in the list.
   final int itemCount;

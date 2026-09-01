@@ -9,6 +9,14 @@ import 'package:m3e_card_list/m3e_card_list.dart';
 ///
 /// Use this variant when you need to embed the list alongside other slivers
 /// in a [CustomScrollView].
+///
+/// **⚠️ Deprecated**: `m3e_card_list` is end-of-life. Migrate to
+/// [`m3e_segmented_list`](https://pub.dev/packages/m3e_segmented_list).
+@Deprecated(
+  'Use m3e_segmented_list instead. '
+  'This package is end-of-life and will no longer receive updates. '
+  'See: https://pub.dev/packages/m3e_segmented_list',
+)
 class SliverM3ECardList extends StatelessWidget {
   /// The number of items in the list.
   final int itemCount;

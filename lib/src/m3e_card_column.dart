@@ -9,6 +9,14 @@ import 'package:m3e_card_list/m3e_card_list.dart';
 ///
 /// This is an alternative to [M3ECardList] useful when you simply want to
 /// pass a `List<Widget>` consisting of pre-built children.
+///
+/// **⚠️ Deprecated**: `m3e_card_list` is end-of-life. Migrate to
+/// [`m3e_segmented_list`](https://pub.dev/packages/m3e_segmented_list).
+@Deprecated(
+  'Use m3e_segmented_list instead. '
+  'This package is end-of-life and will no longer receive updates. '
+  'See: https://pub.dev/packages/m3e_segmented_list',
+)
 class M3ECardColumn extends StatelessWidget {
   /// The list of static children to display in the column.
   final List<Widget> children;
