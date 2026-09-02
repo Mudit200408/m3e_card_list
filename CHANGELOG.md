@@ -1,4 +1,14 @@
+## 1.0.1
+
+### Deprecated
+
+- This package is **end-of-life**. All public components (`M3ECardList`, `M3ECardColumn`,
+  `SliverM3ECardList`, `M3ECard`) are deprecated and will not receive future updates.
+- Migrate to [`m3e_segmented_list`](https://pub.dev/packages/m3e_segmented_list) which
+  supersedes this package with a richer API and active maintenance.
+
 ## 1.0.0
+
 
 - pubspec: migrate to standalone material_ui package for flutter 3.47
 - pubspec: Update the minimum flutter SDK to 3.47.0

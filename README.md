@@ -1,5 +1,11 @@
 # M3E Card List
 
+> [!CAUTION]
+> **⚠️ End of Life — This package is deprecated.**
+> `m3e_card_list` is no longer maintained. Please migrate to
+> [`m3e_segmented_list`](https://pub.dev/packages/m3e_segmented_list),
+> which supersedes this package with a richer API and continued support.
+
 ![M3E Card List Demo](screenshot.png)
 
 A Flutter package providing expressive, Material 3 card lists with dynamically rounded corners inside normal `ListView`s and `CustomScrollView`s (via slivers). It also provides a lightweight `M3ECardColumn` for static layouts.
